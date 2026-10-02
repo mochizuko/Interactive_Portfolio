@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Twofold Studio brings business and technology together to analyze needs, develop solutions, and improve business."
+    >
+    <title>Twofold Studio | Business &amp; Technology Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Twofold Studio home">TWOFOLD STUDIO</a>
+
+      <nav class="site-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero-section" aria-labelledby="hero-title">
+        <div class="hero-intro">
+          <p class="eyebrow">Business &amp; Technology Solutions</p>
+          <h1 id="hero-title">Analyzing needs.<br>Developing solutions.<br>Improving business.</h1>
+          <p class="hero-summary">
+            We bring business thinking and technology together to solve
+            operational problems.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore our work</a>
+            <a class="button button-secondary" href="#contact">Get in touch</a>
+          </div>
+        </div>
+
+        <div class="hero-profiles" aria-label="Twofold Studio team members">
+          <article class="profile-card">
+            <div class="photo-placeholder" role="img" aria-label="Photo placeholder for partner one">
+              <span>Add photo</span>
+            </div>
+            <div class="profile-card-copy">
+              <p class="eyebrow">Partner One</p>
+              <h2>[Partner One Name]</h2>
+              <p class="profile-role">[Job title or area of focus]</p>
+              <p class="profile-slogan">“[Add a personal slogan.]”</p>
+            </div>
+          </article>
+          <article class="profile-card">
+            <div class="photo-placeholder photo-placeholder-alt" role="img" aria-label="Photo placeholder for partner two">
+              <span>Add photo</span>
+            </div>
+            <div class="profile-card-copy">
+              <p class="eyebrow">Partner Two</p>
+              <h2>[Partner Two Name]</h2>
+              <p class="profile-role">[Job title or area of focus]</p>
+              <p class="profile-slogan">“[Add a personal slogan.]”</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="about" class="content-section about-section" aria-labelledby="about-title">
+        <div class="section-heading">
+          <p class="eyebrow">About the partners</p>
+          <h2 id="about-title">Two perspectives. One purpose.</h2>
+          <p>
+            Twofold Studio brings together two perspectives: business and
+            technology. Get to know the people behind the solutions.
+          </p>
+        </div>
+        <div class="about-grid">
+          <article class="about-card">
+            <span class="card-number">01</span>
+            <h3>[Partner One Name]</h3>
+            <p class="profile-role">[Area of focus or role]</p>
+            <p>[Add a short profile describing your interests, strengths, and contribution to the team.]</p>
+            <h4>Education</h4>
+            <p>[Program, institution, and relevant coursework or experience]</p>
+            <h4>Career Goals</h4>
+            <p>[Add a career goal related to business, information systems, or technology.]</p>
+          </article>
+          <article class="about-card">
+            <span class="card-number">02</span>
+            <h3>[Partner Two Name]</h3>
+            <p class="profile-role">[Area of focus or role]</p>
+            <p>[Add a short profile describing your interests, strengths, and contribution to the team.]</p>
+            <h4>Education</h4>
+            <p>[Program, institution, and relevant coursework or experience]</p>
+            <h4>Career Goals</h4>
+            <p>[Add a career goal related to business, information systems, or technology.]</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="services" class="content-section services-section" aria-labelledby="services-title">
+        <div class="section-heading">
+          <p class="eyebrow">What we do</p>
+          <h2 id="services-title">Our Services</h2>
+        </div>
+        <ol class="service-list">
+          <li>
+            <h3>Systems Analysis</h3>
+            <p>
+              We analyze business processes, identify problems, and determine
+              what kind of system the business needs.
+            </p>
+          </li>
+          <li>
+            <h3>System Development</h3>
+            <p>
+              We develop information systems that help businesses manage
+              their operations and information.
+            </p>
+          </li>
+          <li>
+            <h3>Business Process Improvement</h3>
+            <p>
+              We examine existing workflows and find ways to make them more
+              efficient through technology.
+            </p>
+          </li>
+          <li>
+            <h3>Database Management</h3>
+            <p>
+              We design and organize databases so businesses can store, manage,
+              and access their information.
+            </p>
+          </li>
+          <li>
+            <h3>IT &amp; Business Consulting</h3>
+            <p>
+              We help businesses determine how technology can support their
+              goals and solve operational problems.
+            </p>
+          </li>
+        </ol>
+        <p><strong>In simple terms:</strong> Analyze &rarr; Develop &rarr; Improve</p>
+      </section>
+
+      <section id="skills" class="content-section skills-section" aria-labelledby="skills-title">
+        <div class="section-heading">
+          <p class="eyebrow">How we work</p>
+          <h2 id="skills-title">Our Skills</h2>
+        </div>
+        <ul class="skills-grid">
+          <li>Systems Analysis</li>
+          <li>Business Process Analysis</li>
+          <li>Information Systems Development</li>
+          <li>Database Management</li>
+          <li>IT &amp; Business Consulting</li>
+          <li>HTML, CSS &amp; JavaScript</li>
+        </ul>
+      </section>
+
+      <section id="projects" class="content-section projects-section" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <p class="eyebrow">Ideas into systems</p>
+          <h2 id="projects-title">Selected Projects</h2>
+          <p>
+          These are project concepts. Replace them with completed work and
+          accurate results as your portfolio develops.
+          </p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-image project-image-inventory" role="img" aria-label="Inventory system project image placeholder">
+              <span>Project image</span>
+            </div>
+            <h3>Inventory Management System</h3>
+            <p><strong>Business problem:</strong> Stock levels and item movement are difficult to track.</p>
+            <p><strong>Analysis:</strong> Identify inventory, user, and reporting requirements.</p>
+            <p><strong>Proposed system:</strong> A system for recording stock, monitoring levels, and reviewing changes.</p>
+            <p><strong>Result:</strong> Add the outcome after the project is developed and evaluated.</p>
+            <a class="project-link" href="#contact">View Project <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image project-image-student" role="img" aria-label="Student system project image placeholder">
+              <span>Project image</span>
+            </div>
+            <h3>Student Information System</h3>
+            <p><strong>Business problem:</strong> Student records and academic information are spread across manual files.</p>
+            <p><strong>Analysis:</strong> Identify the records, roles, and workflows the school needs to manage.</p>
+            <p><strong>Proposed system:</strong> A system for organizing student profiles and academic records.</p>
+            <p><strong>Result:</strong> Add the outcome after the project is developed and evaluated.</p>
+            <a class="project-link" href="#contact">View Project <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image project-image-appointment" role="img" aria-label="Appointment system project image placeholder">
+              <span>Project image</span>
+            </div>
+            <h3>Appointment Management System</h3>
+            <p><strong>Business problem:</strong> Scheduling and appointment updates take time to coordinate.</p>
+            <p><strong>Analysis:</strong> Map the booking process and identify user and scheduling requirements.</p>
+            <p><strong>Proposed system:</strong> A system for organizing appointments and their status.</p>
+            <p><strong>Result:</strong> Add the outcome after the project is developed and evaluated.</p>
+            <a class="project-link" href="#contact">View Project <span aria-hidden="true">→</span></a>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="content-section contact-section" aria-labelledby="contact-title">
+        <div class="contact-intro">
+          <p class="eyebrow">Start a conversation</p>
+          <h2 id="contact-title">Let's solve a business problem together.</h2>
+          <p>Tell us what your business needs. We’ll start by understanding the problem.</p>
+          <p class="contact-placeholder">[Add your preferred email address or other contact details.]</p>
+        </div>
+
+        <form class="contact-form" action="#" method="post">
+          <div>
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div>
+            <label for="phone">Mobile Number</label>
+            <input id="phone" name="phone" type="tel" autocomplete="tel" required>
+          </div>
+          <div>
+            <label for="subject">Subject</label>
+            <input id="subject" name="subject" type="text" required>
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>TWOFOLD STUDIO — Business &amp; Technology Solutions</p>
+      <nav class="social-links" aria-label="Social media">
+        <ul>
+          <li><a href="#" aria-label="LinkedIn profile placeholder">LinkedIn</a></li>
+          <li><a href="#" aria-label="Facebook page placeholder">Facebook</a></li>
+          <li><a href="#" aria-label="Instagram profile placeholder">Instagram</a></li>
+        </ul>
+      </nav>
+      <p>&copy; <span>2026</span> Twofold Studio. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
