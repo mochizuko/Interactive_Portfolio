@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta
       name="description"
-      content="Twofold Studio brings business and technology together to analyze needs, develop solutions, and improve business."
+      content="Twofold Studio brings business and technology together to analyze needs, 
+      develop solutions, and improve business."
     >
     <title>Twofold Studio | Business &amp; Technology Solutions</title>
   </head>
@@ -22,14 +23,19 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-    </header>
+    
+        <button id="theme-toggle" aria-label="Toggle Dark Mode">Dark Mode</button>              
 
+    </header>
     <main>
       <section id="home" aria-labelledby="hero-title">
         <div>
           <p>Business &amp; Technology Solutions</p>
           <h1 id="hero-title">Analyzing needs. Developing solutions. Improving business.</h1>
-          <p>
+          <p class="owners">
+            <strong>Lance Amwel B. Tumanan </strong> &amp; <strong>Andrea Kaye P. Nieves</strong>
+          </p>
+          <p class="lead">
             We bring business thinking and technology together to solve
             operational problems.
           </p>
@@ -38,13 +44,13 @@
         </div>
 
         <figure>
-          <img
-            src="images/twofold-team.jpg"
-            alt="Twofold Studio team portrait"
-          >
-          <figcaption>Add your team photo at images/twofold-team.jpg.</figcaption>
+          <div>
+            <img src="images/profile.jpg" alt="Portrait of a Twofold Studio partner">
+            <img src="images/profile2.jpg" alt="Portrait of the other Twofold Studio partner">
+          </div>
+          <figcaption>Lance Amwel B. Tumanan &amp; Andrea Kaye P. Nieves</figcaption>
         </figure>
-      </section>
+        </section>
 
       <section id="about" aria-labelledby="about-title">
         <h2 id="about-title">Two perspectives. One purpose.</h2>
@@ -61,7 +67,9 @@
         </div>
         <div>
           <h3>Our background</h3>
-          <p>Add both partners' programs, institutions, and relevant experience.</p>
+          <p>Lance Amwel B. Tumanan and Andrea Kaye P. Nieves are Information Systems students who study systems analysis, database management, and web development at 
+            Technological University of the Philippines - Manila. They are passionate about using technology to solve business problems and improve everyday work.
+          </p>
           <h3>Our goals</h3>
           <p>
             Build information systems that solve real business problems and
@@ -110,7 +118,7 @@
           </li>
         </ol>
         <p><strong>In simple terms:</strong> Analyze &rarr; Develop &rarr; Improve</p>
-      </section>
+        </section>
 
       <section id="skills" aria-labelledby="skills-title">
         <h2 id="skills-title">Our Skills</h2>
@@ -127,8 +135,8 @@
       <section id="projects" aria-labelledby="projects-title">
         <h2 id="projects-title">Selected Projects</h2>
         <p>
-          These are project concepts. Replace them with completed work and
-          accurate results as your portfolio develops.
+          Each project follows the same process: Business Problem &rarr;
+          Analysis &rarr; Proposed System &rarr; Development &rarr; Result.
         </p>
         <div>
           <article>
@@ -136,26 +144,26 @@
             <p><strong>Business problem:</strong> Stock levels and item movement are difficult to track.</p>
             <p><strong>Analysis:</strong> Identify inventory, user, and reporting requirements.</p>
             <p><strong>Proposed system:</strong> A system for recording stock, monitoring levels, and reviewing changes.</p>
-            <p><strong>Result:</strong> Add the outcome after the project is developed and evaluated.</p>
-            <a href="#contact">Ask about this project</a>
+            <p><strong>Result:</strong> A working system prototype that the business can review and improve.</p>
+            <a href="#contact">View Project</a>
           </article>
-
+ 
           <article>
             <h3>Student Information System</h3>
             <p><strong>Business problem:</strong> Student records and academic information are spread across manual files.</p>
             <p><strong>Analysis:</strong> Identify the records, roles, and workflows the school needs to manage.</p>
             <p><strong>Proposed system:</strong> A system for organizing student profiles and academic records.</p>
-            <p><strong>Result:</strong> Add the outcome after the project is developed and evaluated.</p>
-            <a href="#contact">Ask about this project</a>
+            <p><strong>Result:</strong> A working system prototype that the business can review and improve.</p>
+            <a href="#contact">View Project</a>
           </article>
-
+ 
           <article>
             <h3>Appointment Management System</h3>
             <p><strong>Business problem:</strong> Scheduling and appointment updates take time to coordinate.</p>
             <p><strong>Analysis:</strong> Map the booking process and identify user and scheduling requirements.</p>
             <p><strong>Proposed system:</strong> A system for organizing appointments and their status.</p>
-            <p><strong>Result:</strong> Add the outcome after the project is developed and evaluated.</p>
-            <a href="#contact">Ask about this project</a>
+            <p><strong>Result:</strong> A working system prototype that the business can review and improve.</p>
+            <a href="#contact">View Project</a>
           </article>
         </div>
       </section>
@@ -163,7 +171,13 @@
       <section id="contact" aria-labelledby="contact-title">
         <h2 id="contact-title">Let's solve a business problem together.</h2>
         <p>Tell us what your business needs. We’ll start by understanding the problem.</p>
-
+ 
+        <address>
+          <p><strong>Email</strong><br><a href="mailto:twofoldstudio@example.com">twofoldstudio@example.com</a></p>
+          <p><strong>Mobile</strong><br><a href="tel:+639000000000">+63 900 000 0000</a></p>
+          <p><strong>Studio</strong><br>Lance Amwel B. Tumanan &amp; Andrea Kaye P. Nieves</p>
+        </address>
+ 
         <form action="#" method="post">
           <div>
             <label for="name">Name</label>
@@ -194,12 +208,13 @@
       <p>TWOFOLD STUDIO — Business &amp; Technology Solutions</p>
       <nav aria-label="Social media">
         <ul>
-          <li><span>LinkedIn: add your profile link</span></li>
-          <li><span>Facebook: add your page link</span></li>
-          <li><span>Instagram: add your profile link</span></li>
+          <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a></li>
         </ul>
       </nav>
-      <p>&copy; <span>2026</span> Twofold Studio. All rights reserved.</p>
+      <p>&copy; <span>2026</span> Twofold Studio &mdash; Lance Amwel B. Tumanan &amp; Andrea Kaye P. Nieves. All rights reserved.</p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
