@@ -3,19 +3,16 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta
-      name="description"
-      content="Twofold Studio brings business and technology together to analyze needs, 
-      develop solutions, and improve business."
-    >
+    <meta name="description" content="Twofold Studio brings business and technology together to analyze needs, develop solutions, and improve business.">
     <title>Twofold Studio | Business &amp; Technology Solutions</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header>
-      <a href="#home" aria-label="Twofold Studio home">TWOFOLD STUDIO</a>
+    <input type="checkbox" id="theme-checkbox" class="theme-checkbox" aria-label="Toggle dark mode">
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Twofold Studio home">TWOFOLD STUDIO</a>
 
-      <nav aria-label="Main navigation">
+      <nav class="site-nav" aria-label="Main navigation">
         <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
@@ -24,121 +21,130 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-    
-        <button id="theme-toggle" aria-label="Toggle Dark Mode">Dark Mode</button>              
 
+      <label for="theme-checkbox" class="theme-toggle" aria-hidden="true"><span class="label-light">Dark mode</span><span class="label-dark">Light mode</span></label>
     </header>
+
     <main>
-        <section id="home" aria-labelledby="hero-title">
-            <div>
-            <p>Business &amp; Technology Solutions</p>
-            <h1 id="hero-title">Analyzing needs. Developing solutions. Improving business.</h1>
-            <p class="owners">
-                <strong>Lance Amwel B. Tumanan </strong> &amp; <strong>Andrea Kaye P. Nieves</strong>
-            </p>
-            <p class="lead">
-                We bring business thinking and technology together to solve
-                operational problems.
-            </p>
-            <a href="#projects">Explore our work</a>
-            <a href="#contact">Get in touch</a>
+      <section id="home" class="hero-section" aria-labelledby="hero-title">
+        <div class="hero-intro">
+          <p class="eyebrow">Business &amp; Technology Solutions</p>
+          <h1 id="hero-title">Analyzing needs. Developing solutions. Improving business.</h1>
+          <p class="hero-summary">
+            We bring business thinking and technology together to solve operational problems.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore our work</a>
+            <a class="button button-secondary" href="#contact">Get in touch</a>
+          </div>
+        </div>
+
+        <div class="hero-profiles">
+          <article class="profile-card">
+            <img class="profile-photo" src="images/profile.jpg" alt="Portrait of Lance Amwel B. Tumanan">
+            <div class="profile-card-copy">
+              <p class="eyebrow">Partner</p>
+              <h2>Lance Amwel B. Tumanan</h2>
+              <p class="profile-role">Systems Analyst &amp; Developer</p>
+              <p class="profile-slogan">&ldquo;Do not believe in Limits, Go forth and Beyond.&rdquo;</p>
             </div>
+          </article>
 
-            <figure>
-            <div>
-                <img src="images/profile.jpg" alt="Portrait of a Twofold Studio partner">
-                <img src="images/profile2.jpg" alt="Portrait of the other Twofold Studio partner">
+          <article class="profile-card">
+            <img class="profile-photo" src="images/profile2.jpg" alt="Portrait of Andrea Kaye P. Nieves">
+            <div class="profile-card-copy">
+              <p class="eyebrow">Partner</p>
+              <h2>Andrea Kaye P. Nieves</h2>
+              <p class="profile-role">UI/UX Designer &amp; Web Developer</p>
+              <p class="profile-slogan">&ldquo;From Insight to Implementation.&rdquo;</p>
             </div>
-            <figcaption>Lance Amwel B. Tumanan &amp; Andrea Kaye P. Nieves</figcaption>
-            </figure>
-        </section>
+          </article>
+        </div>
+      </section>
 
-        <section id="about" aria-labelledby="about-title">
-        <h2 id="about-title">Two perspectives. One purpose.</h2>
+      <section id="about" class="content-section" aria-labelledby="about-title">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2 id="about-title">Two perspectives. One purpose.</h2>
+        </div>
 
-        <article>
+        <div class="about-grid">
+          <article class="about-card">
+            <span class="card-number">01</span>
             <h3>Lance Amwel B. Tumanan</h3>
             <p>
-            Information Systems student focused on systems analysis & design, development, system security and database design. Lance helps turn business needs
-            into practical systems.
+              Information Systems student focused on systems analysis &amp; design, development,
+              system security and database design. Lance helps turn business needs into practical systems.
             </p>
             <h4>Educational background</h4>
             <p>Current 3rd Year Student at Technological University of the Philippines studying Bachelor of Science in Information Systems</p>
             <h4>Career goals</h4>
             <ul>
-                <li>Software Engineer</li>
-                <li>Full-Stack Developer</li>
-                <li>Database & Network Engineer/Administrator</li>
-                <li>Cyber Security Specialist</li>
-                <li>Systems Analyst</li>
+              <li>Software Engineer</li>
+              <li>Full-Stack Developer</li>
+              <li>Database &amp; Network Engineer/Administrator</li>
+              <li>Cyber Security Specialist</li>
+              <li>Systems Analyst</li>
             </ul>
-        </article>
+          </article>
 
-        <article>
+          <article class="about-card">
+            <span class="card-number">02</span>
             <h3>Andrea Kaye P. Nieves</h3>
             <p>
-            Information Systems student focused on [example UI design
-            and web development]. Andrea builds interfaces that make systems
-            easy to use.
+              Information Systems student focused on UI design and web development.
+              Andrea builds interfaces that make systems easy to use.
             </p>
             <h4>Educational background</h4>
             <p>Current 3rd Year Student at Technological University of the Philippines studying Bachelor of Science in Information Systems</p>
             <h4>Career goals</h4>
             <ul>
-                <li>UI/UX Designer</li>
-                <li>Web Developer</li>
-                <li>Full-Stack Developer</li>
-                <li>Software Engineer</li>
-                <li>Business Intelligence Analyst</li>
+              <li>UI/UX Designer</li>
+              <li>Web Developer</li>
+              <li>Full-Stack Developer</li>
+              <li>Software Engineer</li>
+              <li>Business Intelligence Analyst</li>
             </ul>
-        </article>
-        </section>
+          </article>
+        </div>
+      </section>
 
-      <section id="services" aria-labelledby="services-title">
-        <h2 id="services-title">Our Services</h2>
-        <ol>
+      <section id="services" class="content-section services-section" aria-labelledby="services-title">
+        <div class="section-heading">
+          <p class="eyebrow">Services</p>
+          <h2 id="services-title">Our Services</h2>
+        </div>
+        <ol class="service-list">
           <li>
             <h3>Systems Analysis</h3>
-            <p>
-              We analyze business processes, identify problems, and determine
-              what kind of system the business needs.
-            </p>
+            <p>We analyze business processes, identify problems, and determine what kind of system the business needs.</p>
           </li>
           <li>
             <h3>System Development</h3>
-            <p>
-              We develop information systems that help businesses manage
-              their operations and information.
-            </p>
+            <p>We develop information systems that help businesses manage their operations and information.</p>
           </li>
           <li>
             <h3>Business Process Improvement</h3>
-            <p>
-              We examine existing workflows and find ways to make them more
-              efficient through technology.
-            </p>
+            <p>We examine existing workflows and find ways to make them more efficient through technology.</p>
           </li>
           <li>
             <h3>Database Management</h3>
-            <p>
-              We design and organize databases so businesses can store, manage,
-              and access their information.
-            </p>
+            <p>We design and organize databases so businesses can store, manage, and access their information.</p>
           </li>
           <li>
             <h3>IT &amp; Business Consulting</h3>
-            <p>
-              We help businesses determine how technology can support their
-              goals and solve operational problems.
-            </p>
+            <p>We help businesses determine how technology can support their goals and solve operational problems.</p>
           </li>
         </ol>
         <p><strong>In simple terms:</strong> Analyze &rarr; Develop &rarr; Improve</p>
-        </section>
+      </section>
 
-      <section id="skills" aria-labelledby="skills-title">
-        <h2 id="skills-title">Our Skills</h2>
-        <ul>
+      <section id="skills" class="content-section" aria-labelledby="skills-title">
+        <div class="section-heading">
+          <p class="eyebrow">Skills</p>
+          <h2 id="skills-title">Our Skills</h2>
+        </div>
+        <ul class="skills-grid">
           <li>Systems Analysis</li>
           <li>Business Process Analysis</li>
           <li>Information Systems Development</li>
@@ -148,81 +154,84 @@
         </ul>
       </section>
 
-      <section id="projects" aria-labelledby="projects-title">
-        <h2 id="projects-title">Selected Projects</h2>
-        <p>
-          Each project follows the same process: Business Problem &rarr;
-          Analysis &rarr; Proposed System &rarr; Development &rarr; Result.
-        </p>
-        <div>
-          <article>
+      <section id="projects" class="content-section projects-section" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2 id="projects-title">Selected Projects</h2>
+          <p>Each project follows the same process: Business Problem &rarr; Analysis &rarr; Proposed System &rarr; Development &rarr; Result.</p>
+        </div>
+                <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-image project-image-inventory">
+              <img src="images/project-inventory.svg" alt="Illustration of a box representing inventory" loading="lazy">
+            </div>
             <h3>Inventory Management System</h3>
-            <p><strong>Business problem:</strong> Stock levels and item movement are difficult to track.</p>
-            <p><strong>Analysis:</strong> Identify inventory, user, and reporting requirements.</p>
-            <p><strong>Proposed system:</strong> A system for recording stock, monitoring levels, and reviewing changes.</p>
-            <p><strong>Result:</strong> A working system prototype that the business can review and improve.</p>
-            <a href="#contact">View Project</a>
+            <p>Helps a business record stock, monitor item levels, and review changes, replacing hard-to-track manual counts.</p>
+            <a class="button button-accent" href="#contact">View Project</a>
           </article>
- 
-          <article>
+
+          <article class="project-card">
+            <div class="project-image project-image-student">
+              <img src="images/project-student.svg" alt="Illustration of a student profile card" loading="lazy">
+            </div>
             <h3>Student Information System</h3>
-            <p><strong>Business problem:</strong> Student records and academic information are spread across manual files.</p>
-            <p><strong>Analysis:</strong> Identify the records, roles, and workflows the school needs to manage.</p>
-            <p><strong>Proposed system:</strong> A system for organizing student profiles and academic records.</p>
-            <p><strong>Result:</strong> A working system prototype that the business can review and improve.</p>
-            <a href="#contact">View Project</a>
+            <p>Organizes student profiles and academic records in one place instead of scattered manual files.</p>
+            <a class="button button-accent" href="#contact">View Project</a>
           </article>
- 
-          <article>
+
+          <article class="project-card">
+            <div class="project-image project-image-appointment">
+              <img src="images/project-appointment.svg" alt="Illustration of a calendar for appointments" loading="lazy">
+            </div>
             <h3>Appointment Management System</h3>
-            <p><strong>Business problem:</strong> Scheduling and appointment updates take time to coordinate.</p>
-            <p><strong>Analysis:</strong> Map the booking process and identify user and scheduling requirements.</p>
-            <p><strong>Proposed system:</strong> A system for organizing appointments and their status.</p>
-            <p><strong>Result:</strong> A working system prototype that the business can review and improve.</p>
-            <a href="#contact">View Project</a>
+            <p>Simplifies booking by organizing appointments and their status so scheduling takes less coordination.</p>
+            <a class="button button-accent" href="#contact">View Project</a>
           </article>
         </div>
       </section>
 
-      <section id="contact" aria-labelledby="contact-title">
-        <h2 id="contact-title">Let's solve a business problem together.</h2>
-        <p>Tell us what your business needs. We’ll start by understanding the problem.</p>
- 
-        <address>
-          <p><strong>Email</strong><br><a href="mailto:twofoldstudio@example.com">twofoldstudio@example.com</a></p>
-          <p><strong>Mobile</strong><br><a href="tel:+639000000000">+63 900 000 0000</a></p>
-          <p><strong>Studio</strong><br>Lance Amwel B. Tumanan &amp; Andrea Kaye P. Nieves</p>
-        </address>
- 
-        <form action="#" method="post">
+      <section id="contact" class="content-section contact-section" aria-labelledby="contact-title">
+        <div class="contact-intro">
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">Let's solve a business problem together.</h2>
+          <p>Tell us what your business needs. We'll start by understanding the problem.</p>
+
+          <address class="contact-details">
+            <p><strong>Email</strong><br><a href="mailto:twofoldstudio@example.com">twofoldstudio@example.com</a></p>
+            <p><strong>Mobile</strong><br><a href="tel:+639000000000">+63 900 000 0000</a></p>
+            <p><strong>Studio</strong><br>Lance Amwel B. Tumanan &amp; Andrea Kaye P. Nieves</p>
+          </address>
+        </div>
+
+        <form class="contact-form" action="#" method="post">
           <div>
             <label for="name">Name</label>
-            <input id="name" name="name" type="text" autocomplete="name" required>
+            <input id="name" name="name" type="text" autocomplete="name" placeholder=" " required>
           </div>
           <div>
             <label for="email">Email</label>
-            <input id="email" name="email" type="email" autocomplete="email" required>
+            <input id="email" name="email" type="email" autocomplete="email" placeholder=" " required>
           </div>
           <div>
             <label for="phone">Mobile Number</label>
-            <input id="phone" name="phone" type="tel" autocomplete="tel" required>
+            <input id="phone" name="phone" type="tel" autocomplete="tel" placeholder=" " required>
           </div>
           <div>
             <label for="subject">Subject</label>
-            <input id="subject" name="subject" type="text" required>
+            <input id="subject" name="subject" type="text" placeholder=" " required>
           </div>
           <div>
             <label for="message">Message</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
+            <textarea id="message" name="message" rows="5" placeholder=" " required></textarea>
           </div>
           <button type="submit">Send Message</button>
         </form>
       </section>
     </main>
 
-    <footer>
+    <footer class="site-footer">
       <p>TWOFOLD STUDIO — Business &amp; Technology Solutions</p>
-      <nav aria-label="Social media">
+      <nav class="social-links" aria-label="Social media">
         <ul>
           <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a></li>
           <li><a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a></li>
@@ -231,6 +240,5 @@
       </nav>
       <p>&copy; <span>2026</span> Twofold Studio &mdash; Lance Amwel B. Tumanan &amp; Andrea Kaye P. Nieves. All rights reserved.</p>
     </footer>
-    <script src="script.js"></script>
   </body>
 </html>
